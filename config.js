@@ -3,8 +3,8 @@ const { existsSync } = require('fs')
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 
 module.exports = { 
-    SESSION_ID: process.env.SESSION_ID || 'kord_ai-94GsQL6EpMk8mqtz',
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "2348158941543",
+    SESSION_ID: process.env.SESSION_ID || 'kord_ai-psk0BnXAzgoLepV9',
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "2349049541318",
     WORKTYPE: process.env.WORKTYPE || "private",
     PREFIX: process.env.PREFIX || "[,]",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || true,
@@ -29,7 +29,7 @@ module.exports = {
     ANTI_EDIT: process.env.ANTI_EDIT || "off",
     ANTI_EDIT_IN_CHAT: process.env.ANTI_EDIT_IN_CHAT || "off",
     AUDIO_DATA: process.env.AUDIO_DATA || "Kord;🤍",
-    SUDO: process.env.SUDO || "",
+    SUDO: process.env.SUDO || "2347019314271",
     MODS: process.env.MODS || "",
     REJECT_CALL: process.env.REJECT_CALL || "off",
     WARNCOUNT: process.env.WARNCOUNT || "4",
